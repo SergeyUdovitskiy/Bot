@@ -18,7 +18,7 @@ def get_chat_response(prompt):
         "Authorization": f"Bearer {PROXY_API_KEY}"
     }
     data = {
-        "model": "gpt-4-turbo",  # Изменено на gpt-4-turbo
+        "model": "gpt-4o",  # Изменено на gpt-4o
         "messages": [{"role": "user", "content": prompt}]
     }
 
